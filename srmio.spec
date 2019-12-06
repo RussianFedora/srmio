@@ -53,15 +53,12 @@ rm %{buildroot}%{_libdir}/lib%{name}.la
 %{_bindir}/srmcmd
 %{_bindir}/srmdump
 %{_bindir}/srmsync
-%{_mandir}/man1/srmcmd.1.gz
-%{_mandir}/man1/srmdump.1.gz
-%{_mandir}/man1/srmsync.1.gz
+%{_mandir}/man1/srm*.1*
 
 %files libs
 %license LICENSE
 %doc Changes README
-%{_libdir}/lib%{name}.so.1
-%{_libdir}/lib%{name}.so.1.*
+%{_libdir}/lib%{name}.so.1*
 
 %files devel
 %{_includedir}/%{name}.h
