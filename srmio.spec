@@ -13,6 +13,7 @@ BuildRequires:  gcc-c++
 BuildRequires:  make
 BuildRequires:  autoconf
 BuildRequires:  automake
+BuildRequires:  libtool
 
 %description
 App to access the most important functions of a Schoberer
